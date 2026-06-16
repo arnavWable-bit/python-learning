@@ -44,7 +44,7 @@ if attempts == 0:
 
 
 # EASY_LEVEL_TURNS = 10
-# HARD_LEVEL_TURNS = 
+# HARD_LEVEL_TURNS = 5
 
 
 # # Function to check users' guess against actual answer
