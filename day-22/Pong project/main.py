@@ -47,6 +47,9 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.reset_ball()
         scoreboard.r_point()
+        
+    if scoreboard.game_over():
+        game_is_on = False
     
 
 
