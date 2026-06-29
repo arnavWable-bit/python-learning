@@ -39,15 +39,19 @@ while is_race_on:
         steps = random.randint(0,10)
         turtle.forward(steps)
         
-    
-
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+             
 screen.exitonclick()    
+
+
+
