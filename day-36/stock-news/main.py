@@ -21,8 +21,8 @@ Stock_parameters = {
 }
 
 News_parameters = {
-    "apikey": News_api,
-    "q": COMPANY_NAME,
+    "apiKey": News_api,
+    "qInTitle": COMPANY_NAME,
     "pageSize": 3
 }
 
@@ -37,6 +37,9 @@ dict_keys = Dict.keys()
 list_keys = list(dict_keys)
 yesterdays_closing_price= float(Dict[list_keys[0]]["4. close"])
 previous_day_closing_price = float(Dict[list_keys[1]]["4. close"])
+# data_list = [value for (key,value) in Dict.items()]
+# yesterday_data = data_list[0]
+# yesterdays_closing_price = yesterday_data["4. close"]
 percentage = ((yesterdays_closing_price - previous_day_closing_price)/previous_day_closing_price)* 100
 if percentage < 0:
     sign = "🔻"
